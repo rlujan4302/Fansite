@@ -2,18 +2,13 @@
 <html>
     <head>
         <title>Fallout</title>
-    </head>
-    <style>
+            <style>
     #banner { 
-	background-color: GoldenRod;
-	opacity: 0.9; 
+	background-image: url(images/bg-header.png); 
 	padding-top: 20px; 
 	padding-bottom: 15px; 
 	margin-bottom: 30px;
 	text-align: center;
-	height: 100px;
-	font-size: 50px;
-	color: yellow;
 }
 #nav { 
 	margin-bottom: 50px; 
@@ -46,8 +41,8 @@
 		height:800px;
 		float: left;
 		text-align: center;
-		font-size: 15px;
-		color: brown;
+		font-size: 30px;
+		color: LimeGreen;
 }
 	#aside {
 		margin-left: auto;
@@ -57,27 +52,36 @@
 		height:400px;
 		float: right;
 		text-align: center;
-		font-size: 20px;
+		font-size: 30px;
 }
 	body {
-		background-image: url("http://uk-media.ign.com/fallout/img/wallpapers/wallpaper4/wallpaper-1440x900.jpg");
-		-webkit-background-size: cover;
-  		-moz-background-size: cover;
-  		-o-background-size: cover;
- 		 background-size: cover;
+		background-image: url("https://staticdelivery.nexusmods.com/mods/1151/images/21209-0-1484120300.jpg");
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
 		margin:0;
 		font-family: "Lucida Grande", "Lucida Sans Unicode", sans-serif;
 		color: #6a8e6b;
 }
+.quicklinks { 
+	font-family:verdana, sans-serif; 
+	font-size: 11px;
+	color: green; 
+}
+    #footer {
+    	clear: both;
+    }
 </style>
+    </head>
     <body>
+    <a id="top"></a>	
         <div id="banner">Favorite Characters</div>
         <div id="nav">
-        	<a href="#">Main</a>
-        	<a href="#">Personal opinion</a>
-        	<a href="#">Series/Plot</a>
-        	<a href="#">Story</a>
-        	<a href="#">Reference</a>
+        	<a href="standard.html">Main</a>
+        	<a href="opinion.html">Personal opinion</a>
+        	<a href="plot.html">Series/Plot</a>
+        	<a href=story.html>Story</a>
+        	<a href="Reference.html">Reference</a>
         </div>
         <div id="wrapper">
 			<div id="main">
@@ -95,5 +99,6 @@
 			<div id="aside"><img src="http://i.imgur.com/FftE9.jpg" height="400" width="280"></div>
 		</div>
 		<div id="footer">@ 2017 Roberto lujan</div>
+		<a href="#top"><p>Back to Top</p></a>
     </body>
 </html>
