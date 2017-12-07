@@ -1,15 +1,12 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Fallout</title>
-    </head>
-   <style>
+
     #banner { 
 	background-image: url(images/bg-header.png); 
 	padding-top: 20px; 
 	padding-bottom: 15px; 
 	margin-bottom: 30px;
 	text-align: center;
+	font-size: 30px;
+	margin:0 auto; 
 }
 #nav { 
 	margin-bottom: 50px; 
@@ -77,4 +74,3 @@
     #footer {
     	clear: both;
     }
-</style>
